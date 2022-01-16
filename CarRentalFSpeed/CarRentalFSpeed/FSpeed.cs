@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CarRentalFSpeed
 {
-    public partial class Form1 : Form
+    public partial class FSpeed : Form
     {
-        public Form1()
+        public FSpeed()
         {
             InitializeComponent();
         }

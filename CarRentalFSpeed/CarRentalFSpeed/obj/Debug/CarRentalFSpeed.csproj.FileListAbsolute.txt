@@ -8,3 +8,4 @@ C:\Users\Filip\Desktop\Windows-Forms-Project\CarRentalFSpeed\CarRentalFSpeed\obj
 C:\Users\Filip\Desktop\Windows-Forms-Project\CarRentalFSpeed\CarRentalFSpeed\obj\Debug\CarRentalFSpeed.csproj.CoreCompileInputs.cache
 C:\Users\Filip\Desktop\Windows-Forms-Project\CarRentalFSpeed\CarRentalFSpeed\obj\Debug\CarRentalFSpeed.exe
 C:\Users\Filip\Desktop\Windows-Forms-Project\CarRentalFSpeed\CarRentalFSpeed\obj\Debug\CarRentalFSpeed.pdb
+C:\Users\Filip\Desktop\Windows-Forms-Project\CarRentalFSpeed\CarRentalFSpeed\obj\Debug\CarRentalFSpeed.Audi.resources

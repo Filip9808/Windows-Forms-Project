@@ -46,16 +46,58 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Audi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Audi.Designer.cs">
+      <DependentUpon>Audi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BMW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BMW.Designer.cs">
+      <DependentUpon>BMW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ferrari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ferrari.Designer.cs">
+      <DependentUpon>Ferrari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FSpeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSpeed.Designer.cs">
+      <DependentUpon>FSpeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lamborghini.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lamborghini.Designer.cs">
+      <DependentUpon>Lamborghini.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="RollsRoyce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RollsRoyce.Designer.cs">
+      <DependentUpon>RollsRoyce.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Audi.resx">
+      <DependentUpon>Audi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BMW.resx">
+      <DependentUpon>BMW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ferrari.resx">
+      <DependentUpon>Ferrari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSpeed.resx">
+      <DependentUpon>FSpeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lamborghini.resx">
+      <DependentUpon>Lamborghini.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
