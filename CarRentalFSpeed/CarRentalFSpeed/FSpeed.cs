@@ -49,6 +49,10 @@ namespace CarRentalFSpeed
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
+            Audi audi = new Audi(); 
+            audi.Tag = this;
+            audi.Show(this);
+            Hide();
 
         }
 
@@ -73,6 +77,65 @@ namespace CarRentalFSpeed
         }
 
         private void pictureBox10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click_1(object sender, EventArgs e)
+        {
+            BMW bmw = new BMW();
+            bmw.Tag = this;
+            bmw.Show(this);
+            Hide();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Ferrari rarri = new Ferrari();
+            rarri.Tag = this; 
+            rarri.Show(this);
+            Hide();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Lamborghini lambo = new Lamborghini();
+            lambo.Tag = this;
+            lambo.Show(this);
+            Hide();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+           RollsRoyce rr = new RollsRoyce();
+            rr.Tag = this;
+            rr.Show(this);
+            Hide();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
 
         }

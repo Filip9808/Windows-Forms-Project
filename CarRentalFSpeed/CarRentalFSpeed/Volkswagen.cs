@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace CarRentalFSpeed
 {
-    public partial class RollsRoyce : Form
+    public partial class Volkswagen : Form
     {
-        public RollsRoyce()
+        public Volkswagen()
         {
             InitializeComponent();
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)

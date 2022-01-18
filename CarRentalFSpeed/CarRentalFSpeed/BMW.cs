@@ -31,5 +31,13 @@ namespace CarRentalFSpeed
         {
 
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            FSpeed fSpeed = new FSpeed();
+            fSpeed.Tag = this;
+            fSpeed.Show(this);
+            Hide();
+        }
     }
 }
