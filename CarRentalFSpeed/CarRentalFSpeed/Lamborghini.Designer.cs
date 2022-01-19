@@ -224,6 +224,7 @@ namespace CarRentalFSpeed
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Lamborghini";
             this.Text = "Lamborghini";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

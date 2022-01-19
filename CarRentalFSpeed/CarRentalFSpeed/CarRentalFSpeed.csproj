@@ -114,6 +114,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="RollsRoyce.resx">
       <DependentUpon>RollsRoyce.cs</DependentUpon>
@@ -133,6 +134,93 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Facebook-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ferrari-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Instagram-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lamborghini-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo-FSpeed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rolls-Royce-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Telephone-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Twitter-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Volkswagen-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audi-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BMW-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audi_R8_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audi_R8_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Audi_R8_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BMW-I8-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BMW-I8-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ferrari-F8-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ferrari-F8-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lamborghini-Huracan-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lamborghini-Huracan-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rolls-Royce-Wraith-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rolls-Royce-Wraith-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Volkswagen-Golf-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Volkswagen-Golf-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Shutdown-Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

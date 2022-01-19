@@ -24,5 +24,18 @@ namespace CarRentalFSpeed
             fSpeed.Show(this);
             Hide();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            Volkswagen vw = new Volkswagen();
+            vw.Tag = this;
+            vw.Show(this);
+            Hide();
+        }
     }
 }
